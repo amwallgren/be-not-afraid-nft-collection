@@ -1,0 +1,53 @@
+.main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.footer {
+  display: flex;
+  padding: 2rem;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 70%;
+  height: 50%;
+  margin-left: 25%;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.description {
+  line-height: 1;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: rgb(130, 252, 158);
+  color: black;
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  width: 180px;
+  cursor: pointer;
+  margin: 1rem;
+}
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
