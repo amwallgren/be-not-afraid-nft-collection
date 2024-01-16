@@ -165,7 +165,7 @@ export default function Home() {
     <div>
       <Head>
         <title>amArtCollection</title>
-        <meta name="description" content="amArt-Dapp" />
+        <meta name="description" content="myNFTs-Dapp" />
       </Head>
 
       <div className={styles.main}>
